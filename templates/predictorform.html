@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebsiteTestRun1</title>
+
+    <style>
+        .container {
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: 0 -50% 0 0;
+            transform: translate(-50%, -50%)
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <form action="http://localhost:9999/results" method="POST">
+        <label for="headline"> Headline :</label>
+        <input type="text" id="headline" name="headline"><br><br>
+        <label for="body"> Body         :</label>
+        <input type="text" id="body" name="body"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
+
+</body>
+</html>
