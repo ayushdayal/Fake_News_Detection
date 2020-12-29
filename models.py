@@ -106,4 +106,4 @@ def predict(headline, body):
     return preds
 
 
-predict(headline='this is test headline', body='this  asdfas asdf asdf asdf is a body')
+# predict(headline='this is test headline', body='this  asdfas asdf asdf asdf is a body')
